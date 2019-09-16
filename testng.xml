@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+     
+    <classes>
+      <class name="naveenTestNG.GoogleTest"/>
+      <class name="naveenTestNG.TestNGFeatures"/>
+      <class name="excel.FacebookTest"/>
+      <class name="testNGListener.ScreenShotTest"/>
+      <class name="retry.MyTestRetry"/>
+      <class name="myTest.Testcases"/>
+      <class name="naveenTestNG.GoogleTitleTest"/>
+      <class name="naveenTestNG.TestNGBasics"/>
+      <class name="naveenTestNG.InvocationCountTest"/>
+      <class name="testNGlearning.TestCase2"/>
+      <class name="naveenTestNG.ExceptionTimeOutTest"/>
+      <class name="testNGlearning.TestCase1"/>
+      <class name="testNGlearning.TestCase3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
